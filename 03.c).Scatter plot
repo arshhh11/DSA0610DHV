@@ -15,3 +15,5 @@ print(data)
 scatter_plot <- ggplot(data, aes(x = Page_Views, y = Click_Through_Rate)) +
   geom_point() +
   labs(title = "Scatter Plot", x = "Page Views", y = "Click-through Rate")
+print(scatter_plot)
+

@@ -15,3 +15,4 @@ print(data)
 line_plot <- ggplot(data, aes(x = Date, y = Click_Through_Rate)) +
   geom_line() +
   labs(title = "Line Plot", x = "Date", y = "Click-through Rate")
+print(line_plot)

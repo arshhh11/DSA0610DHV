@@ -15,3 +15,4 @@ print(data)
 bar_chart <- ggplot(data, aes(x = Date, y = Page_Views, fill = factor(Click_Through_Rate))) +
   geom_bar(stat = "identity") +
   labs(title = "Stacked Bar Chart", x = "Date", y = "Page Views")
+print(bar_chart)

@@ -16,3 +16,4 @@ pie_chart <- ggplot(data, aes(x = "", y = Page_Views, fill = factor(Click_Throug
   geom_bar(stat = "identity", width = 1) +
   coord_polar("y") +
   labs(title = "Pie Plot", x = NULL, y = NULL)
+print(pie_chart)

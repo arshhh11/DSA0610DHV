@@ -1,4 +1,4 @@
-# Install and load required packages
+#  Install and load required packages
 install.packages("ggplot2")
 install.packages("dplyr")
 library(ggplot2)
